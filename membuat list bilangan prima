@@ -1,0 +1,13 @@
+n = 10
+prima = []
+
+for i in range(2, n+1):
+    prima_is = True
+    for j in range(2, i):
+        if i % j == 0:
+            prima_is = False
+            break
+    if prima_is:
+        prima.append(i)
+
+print("Bilangan prima:", prima)
