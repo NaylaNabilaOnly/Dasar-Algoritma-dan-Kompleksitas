@@ -1,0 +1,9 @@
+data = [4, 10, 54, 78, 45]
+
+max_nilai = data[0]
+
+for i in data:
+    if i > max_nilai:
+        max_nilai = i
+
+print("Nilai maksimum:", max_nilai)
